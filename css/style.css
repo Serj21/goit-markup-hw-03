@@ -49,8 +49,6 @@ a {
   flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 .logo-link {
   font-family: Raleway, sans-serif;
@@ -64,8 +62,8 @@ a {
   margin-right: 76px;
 }
 .header-link {
+  display: block;
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
@@ -140,7 +138,7 @@ img {
   line-height: 1.07;
   letter-spacing: 0.02em;
   display: block;
-  margin: 48px auto;
+  margin:  0 auto 48px auto;
 
   max-width: 496px;
 }
@@ -187,7 +185,7 @@ button {
   justify-content: center;
 }
 .benenefits-item {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
 }
 .benenefits-caption {
   color: #2e2f42;
@@ -196,7 +194,6 @@ button {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 .benenefits-desc {
